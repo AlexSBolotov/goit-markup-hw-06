@@ -413,28 +413,21 @@
         </div>
         <div class="footer-subscribe">
           <p class="footer-subscribe-text">Subscribe</p>
-
-          <div class="footer-form-wrap">
-            <form>
-              <label for="footer-email"></label>
-              <input
-                class="footer-form-input"
-                type="email"
-                name="email"
-                id="footer-email"
-                autocomplete="email"
-                placeholder="Email"
-              />
-            </form>
-            <div class="footer-btn-wrap">
-              <button class="footer-form-submit" type="submit">
-                Subscribe
-              </button>
-              <svg class="footer-form-icon" width="24" height="24">
+          <form class="footer-form-wrap">
+            <input
+              class="footer-form-input"
+              type="email"
+              name="email"
+              id="footer-email"
+              autocomplete="email"
+              placeholder="Email"
+            />
+            <button class="footer-form-submit" type="submit">
+              Subscribe<svg class="footer-form-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-subscribe"></use>
               </svg>
-            </div>
-          </div>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -443,7 +436,7 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <!-- <div class="" role="group" aria-labelledby="contacts-details"> -->
-        <p id="contacts-details" class="contacts-details">
+        <p class="contacts-details">
           Leave your contacts and we will call you back
         </p>
         <form class="modal-form">
